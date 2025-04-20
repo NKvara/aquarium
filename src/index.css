@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: black;
+  font-family: 'Cabin', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --color-primary: #8e7fff;
+  --font-title: 'Bebas Neue', sans-serif;
+}
+
+@theme {
+  --breakpoint-pc: 1280px;
+  --spacing-pc: 1280px;
+  
+  --color-primary: var(--color-primary);
+  
+  --font-title: var(--font-title);
+}
