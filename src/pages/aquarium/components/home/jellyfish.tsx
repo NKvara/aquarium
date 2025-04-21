@@ -1,7 +1,7 @@
 import {motion, useMotionValue, useSpring, useTransform} from "framer-motion";
 import {useEffect} from "react";
 
-const Jellyfish = () => {
+const JellyfishDesktop = () => {
   const mouseX = useMotionValue(window.innerWidth / 2);
   const mouseY = useMotionValue(window.innerHeight / 2);
 
@@ -81,4 +81,4 @@ const Jellyfish = () => {
   );
 };
 
-export default Jellyfish;
+export default JellyfishDesktop;

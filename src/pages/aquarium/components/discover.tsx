@@ -7,8 +7,8 @@ const Discover = () => {
       className="flex justify-center items-center w-svw h-svh bg-bottom bg-cover text-white"
       style={{backgroundImage: "url(/aquarium/images/bg1.jpg)"}}
     >
-      <div className="flex items-center justify-between size-full">
-        <div className="flex flex-col justify-between h-full w-1/2">
+      <div className="flex flex-col pc:flex-row items-center justify-between size-full">
+        <div className="flex flex-col justify-between h-full pc:w-1/2">
           <div className="flex flex-col justify-center items-end text-right pr-8 size-full text-[200px] leading-[180px] bg-indigo-600">
             <h1
               className="font-title text-transparent"

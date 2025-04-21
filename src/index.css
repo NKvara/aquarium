@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
 body {
-  overflow: hidden;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
   background: black;
   font-family: 'Cabin', sans-serif;
+  overflow: auto;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+}
+
+@media (min-width: 1281px) {
+  body {
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 :root {
@@ -18,10 +27,9 @@ body::-webkit-scrollbar {
 }
 
 @theme {
-  --breakpoint-pc: 1280px;
+  --breakpoint-pc: 1281px;
   --spacing-pc: 1280px;
-  
+
   --color-primary: var(--color-primary);
-  
   --font-title: var(--font-title);
 }
