@@ -5,7 +5,7 @@ import useWindowResize from "@/functions/useWindowResize";
 import Pagination from "@/pages/aquarium/components/pagination";
 import Home from "@/pages/aquarium/components/home";
 import Discover from "@/pages/aquarium/components/discover";
-import Fish from "@/pages/aquarium/components/price";
+import Price from "@/pages/aquarium/components/price";
 import Contact from "@/pages/aquarium/components/contact";
 import DisableScroll from "@/functions/disableScroll";
 
@@ -70,7 +70,7 @@ const AquariumDesktop = () => {
       />
       <Home />
       <Discover />
-      <Fish />
+      <Price />
       <Contact />
     </div>
   );
