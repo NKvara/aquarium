@@ -13,7 +13,7 @@ const pages = ["home", "discover", "fish", "contact"];
 
 const scrollTo = (index: number, quick?: boolean) =>
   scroller.scrollTo(pages[index], {
-    duration: quick ? 0 : 400,
+    duration: quick ? 0 : 500,
     delay: 0,
     smooth: "easeInOutQuart"
   });

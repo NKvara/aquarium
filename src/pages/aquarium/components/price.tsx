@@ -67,9 +67,11 @@ const Price = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col gap-2 items-center justify-center p-2 bg-indigo-600/20 shadow-lg shadow-indigo-700/50">
+        <div className="flex flex-col gap-2 items-center justify-center p-2">
           <img src="/aquarium/images/news.gif" className="h-32" />
-          <p className="text-lg opacity-90">Buying any tier ticket gives you FREE access to the Sand Museum!</p>
+          <p className="text-lg opacity-90">
+            Buying any tier ticket gives you FREE access to the Sand Museum!
+          </p>
         </div>
       </div>
     </Element>
