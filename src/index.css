@@ -6,9 +6,6 @@ body {
   overflow: auto;
 }
 
-body::-webkit-scrollbar {
-}
-
 @media (min-width: 1281px) {
   body {
     overflow: hidden;
